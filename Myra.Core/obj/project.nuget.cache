@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "F+boIc7gd0I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\koira\\OneDrive\\Desktop\\MYRA\\Myra.Core\\Myra.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\koira\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\koira\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\koira\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\koira\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\koira\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\koira\\.nuget\\packages\\system.diagnostics.process\\4.3.0\\system.diagnostics.process.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Diagnostics.Process will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\koira\\OneDrive\\Desktop\\MYRA\\Myra.Core\\Myra.Core.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\koira\\OneDrive\\Desktop\\MYRA\\Myra.Core\\Myra.Core.csproj",
+      "libraryId": "System.Diagnostics.Process",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\koira\\OneDrive\\Desktop\\MYRA\\Myra.Core\\Myra.Core.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\koira\\OneDrive\\Desktop\\MYRA\\Myra.Core\\Myra.Core.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
