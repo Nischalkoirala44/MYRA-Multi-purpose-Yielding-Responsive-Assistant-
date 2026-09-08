@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Define Custom Theme Variables for Tailwind v4 */
+@theme {
+  --color-glass-bg: rgba(15, 23, 42, 0.45);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-myra-accent: #9333ea;
+  --color-myra-glow: #a855f7;
+  --color-myra-cyan: #06b6d4;
+}
+
+/* Base Body Styles */
+body {
+  background: #090d16;
+  color: #f3f4f6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Styles */
+.glass-card {
+  background: var(--color-glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(24, 34, 61, 0.55);
+  border-color: rgba(168, 85, 247, 0.4);
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.2);
+}
+
+.glass-glow {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.35);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 85, 247, 0.7);
+}
